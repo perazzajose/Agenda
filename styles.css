@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #e5d5f2; /* Crema Violeta */
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+}
+
+h1 {
+    text-align: center;
+    color: #6b3477; /* Crema Violeta */
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+input {
+    flex: 1;
+    padding: 8px;
+    margin: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+button {
+    padding: 8px 20px;
+    background-color: #6b3477; /* Crema Violeta */
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin: 5px 0;
+    background-color: #f9f9f9;
+    border-radius: 3px;
+}
+
+button.delete {
+    background-color: #dc3545;
+}
+
+button.edit {
+    background-color: #6b3477; /* Crema Violeta */
+}
+
+button.edit:hover, button.delete:hover {
+    background-color: #4e1a54; /* Crema Violeta - Darker shade */
+}
